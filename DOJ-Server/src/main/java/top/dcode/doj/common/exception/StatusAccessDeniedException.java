@@ -1,6 +1,8 @@
 package top.dcode.doj.common.exception;
 
-
+/*
+异常处理
+ */
 public class StatusAccessDeniedException extends Exception {
 
     public StatusAccessDeniedException() {
