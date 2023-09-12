@@ -1,0 +1,8 @@
+mybatis-plus:
+  mapper-locations: classpath*:top/dcode/doj/mapper/xml/**Mapper.xml
+  type-aliases-package: top.dcode.doj.pojo.entity
+  configuration:
+    cache-enabled: true
+  # 关闭打印 mybatis-plus 的 LOGO
+  global-config:
+    banner: false
